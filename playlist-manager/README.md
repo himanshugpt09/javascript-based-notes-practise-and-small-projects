@@ -1,0 +1,3 @@
+A playlist manager that needs to add songs, remove the most recently added one, insert a song at a specific position, and pull out a subset of the playlist — the kind of everyday array manipulation every Node.js tool eventually needs, going beyond the read-only iteration you've done so far into methods that actually change the array's contents and shape.
+
+Main concept being drilled: The core array mutation/access methods: push, pop, unshift, shift, slice, splice, and the critical distinction between mutating methods (change the original array) and non-mutating methods (return a new array, leave the original untouched).
