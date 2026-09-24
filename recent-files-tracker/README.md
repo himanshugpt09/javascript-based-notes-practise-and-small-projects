@@ -1,0 +1,3 @@
+A browser-history-style "recent files" tracker (command-line tool, no actual browser involved — just the concept) that keeps a capped list of the most recently opened files, removes duplicates when a file is reopened, and supports "undo" by removing the most recent entry.
+
+Main concept being drilled:  indexOf/includes (new — needed to detect duplicates) and applied through a realistic "cap the list size" pattern, reinforcing when to reach for splice vs push/pop when multiple operations interact. const/let discipline, arrow functions, guard clauses.
