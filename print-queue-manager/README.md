@@ -1,0 +1,5 @@
+A print queue manager object (mirroring the task list / notification center object style ) that manages a queue of print jobs — supports adding jobs, cacorrectly use this, call-site rule nceling a specific job by ID, reordering priority jobs to the front, processing (popping) the next job, and history tracking with a capped size — a full integration of array methods  with object methods and correct this usage (Concept 3), plus function composition  and scope discipline .
+
+Main concept being drilled: Applying all six core array methods as object methods that — every array mutation now happens via this.queue.push(...) etc., rather than on a loose standalone array, which is how array-heavy logic actually appears in real Node.js codebases (services, classes, managers).
+
+other concepts reused: All six array methods + indexOf/splice idiom , regular-function methods using this , arrow callbacks inheriting this , the defensive-copy pattern , guard clauses, accumulator/scope discipline .
