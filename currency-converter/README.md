@@ -1,0 +1,3 @@
+A currency converter that needs to transform a whole list of prices (in USD) into a corresponding list of prices (in EUR) — the canonical "same shape, new values" transformation that map() was purpose-built for, contrasted directly against the manual for...of + push pattern you've used in almost every project so far.
+
+Main concept being drilled: Array.prototype.map() — what it actually is (a method that returns a new array, the same length as the original, where each element is the result of calling a callback on the corresponding original element), and why it replaces the extremely common "create an empty array, loop, push a transformed value" pattern.
